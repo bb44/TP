@@ -1,0 +1,2 @@
+modifiez dans le code source pour lire les fichers peppers et lena
+l'histogramme est renvoyer par println
