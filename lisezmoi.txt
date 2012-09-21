@@ -1,2 +1,3 @@
 modifiez dans le code source pour lire les fichers peppers et lena
-l'histogramme est renvoyer par println
+l'histogramme est renvoyer dans le fichier histogramme.pgm
+ATTENTION : Attendre le message Le fichier histogramme.pgm a été créé!
