@@ -29,7 +29,7 @@ try{
 		if(numligne==1){l1=ligne;}
 		if(numligne==2){l2=ligne;}
 		if(numligne==3){l3=ligne;}
-		if(numligne>3){
+		if(numligne>4){
 		carac.addElement(Integer.valueOf(ligne));}
 	}
 	br.close(); 
@@ -61,7 +61,7 @@ try {
 	FileWriter fw = new FileWriter (fichier2);
 	BufferedWriter bw = new BufferedWriter (fw);
 	PrintWriter fichierSortie = new PrintWriter (bw);
-	chaine=l1+"\n"+l2+"\n"+l3+"\n";
+	chaine=l1+"\n"+l2+"\n"+l3+"\n"+"255"+"\n";
 	for(int s=0; s<histo.size();s++){
 		chaine+=histo.get(s)+"\n";
 	}
